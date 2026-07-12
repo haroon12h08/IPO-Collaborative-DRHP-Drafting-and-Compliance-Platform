@@ -1,0 +1,7 @@
+{
+  "module": {
+    "label": "{count, plural, one {Task} other {Tasks}}",
+    "no_module": "No Task",
+    "select": "Add Tasks"
+  }
+}

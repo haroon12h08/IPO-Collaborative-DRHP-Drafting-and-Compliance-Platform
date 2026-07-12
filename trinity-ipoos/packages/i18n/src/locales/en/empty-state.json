@@ -1,0 +1,270 @@
+{
+  "common_empty_state": {
+    "progress": {
+      "title": "There're no progress metrics to show yet.",
+      "description": "Start setting property values in Compliance Tasks to see progress metrics here."
+    },
+    "updates": {
+      "title": "No updates yet.",
+      "description": "Once IPO Workspace members add updates it will appear here"
+    },
+    "search": {
+      "title": "No matching results.",
+      "description": "No results found. Try adjusting your search terms."
+    },
+    "not_found": {
+      "title": "Oops! Something seems wrong",
+      "description": "We are unable to fetch your Trinity Intelligence account currently. This might be a network error.",
+      "cta_primary": "Try reloading"
+    },
+    "server_error": {
+      "title": "Server error",
+      "description": "We are unable to connect and fetch data from our server. Don't worry, we are working on it.",
+      "cta_primary": "Try reloading"
+    }
+  },
+  "project_empty_state": {
+    "no_access": {
+      "title": "Seems like you don’t have access to this IPO Workspace",
+      "restricted_description": "Contact admin to request for access and you can continue here.",
+      "join_description": "Click the button below to join it.",
+      "cta_primary": "Join IPO Workspace",
+      "cta_loading": "Joining IPO Workspace"
+    },
+    "invalid_project": {
+      "title": "IPO Workspace not found",
+      "description": "The IPO Workspace you are looking for does not exist."
+    },
+    "work_items": {
+      "title": "Start with your first Compliance Task.",
+      "description": "Compliance Tasks are the building blocks of your IPO Workspace — assign owners, set priorities, and track progress easily.",
+      "cta_primary": "Create your first Compliance Task"
+    },
+    "cycles": {
+      "title": "Group and timebox Compliance Tasks in IPO Readiness.",
+      "description": "Break work down by timeboxed chunks, work backwards from your IPO Workspace deadline to set dates, and make tangible progress as a team.",
+      "cta_primary": "Set your first IPO Readiness"
+    },
+    "cycle_work_items": {
+      "title": "No Compliance Tasks to show in this IPO Readiness",
+      "description": "Create Compliance Tasks to begin monitoring your team's progress this IPO Readiness and achieve your goals on time.",
+      "cta_primary": "Create Compliance Task",
+      "cta_secondary": "Add existing Compliance Task"
+    },
+    "modules": {
+      "title": "Map your IPO Workspace goals to Tasks and track easily.",
+      "description": "Tasks are made up of interconnected Compliance Tasks. They assist in monitoring progress through IPO Workspace phases, each with specific deadlines and Risk Assessment to indicate how close you are to achieving those phases.",
+      "cta_primary": "Set your first Task"
+    },
+    "module_work_items": {
+      "title": "No Compliance Tasks to show in this Task",
+      "description": "Create Compliance Tasks to begin monitoring this Task.",
+      "cta_primary": "Create Compliance Task",
+      "cta_secondary": "Add existing Compliance Task"
+    },
+    "views": {
+      "title": "Save custom Compliance Flags for your IPO Workspace",
+      "description": "Compliance Flags are saved filters that help you quickly access the information you use most. Collaborate effortlessly as teammates share and tailor Compliance Flags to their specific needs.",
+      "cta_primary": "Create view"
+    },
+    "no_work_items_in_project": {
+      "title": "No Compliance Tasks in the IPO Workspace yet",
+      "description": "Add Compliance Tasks to your IPO Workspace and slice Compliance Tasks into trackable pieces with Compliance Flags.",
+      "cta_primary": "Add Compliance Task"
+    },
+    "work_item_filter": {
+      "title": "No Compliance Tasks found",
+      "description": "Your current filter didn't return any results. Try changing the filters.",
+      "cta_primary": "Add Compliance Task"
+    },
+    "pages": {
+      "title": "Document everything — from notes to PRDs",
+      "description": "Company Records let you capture and organize information in one place. Write meeting notes, IPO Workspace documentation, and PRDs, embed Compliance Tasks, and structure them with ready-to-use components.",
+      "cta_primary": "Create your first Company Record"
+    },
+    "archive_pages": {
+      "title": "No archived Company Records yet",
+      "description": "Archive Company Records not on your radar. Access them here when needed."
+    },
+    "intake_sidebar": {
+      "title": "Log Intake requests",
+      "description": "Submit new requests to be reviewed, prioritized, and tracked within your IPO Workspace's workflow.",
+      "cta_primary": "Create Intake request"
+    },
+    "intake_main": {
+      "title": "Select an Intake Compliance Task to view its details"
+    },
+    "epics": {
+      "title": "Turn complex IPO Workspaces into structured epics.",
+      "description": "An epic helps you organize big goals into smaller, trackable Compliance Tasks.",
+      "cta_primary": "Create an Epic",
+      "cta_secondary": "Documentation"
+    },
+    "epic_work_items": {
+      "title": "You haven't added Compliance Tasks to this epic yet.",
+      "description": "Start by adding some Compliance Tasks to this epic and track them here.",
+      "cta_secondary": "Add Compliance Tasks"
+    }
+  },
+  "workspace_empty_state": {
+    "archive_epics": {
+      "title": "No archived epics yet",
+      "description": "You can archive epics that are IPO Ready or cancelled. Find them here once archived."
+    },
+    "archive_work_items": {
+      "title": "No archived Compliance Tasks yet",
+      "description": "Manually or through automation, you can archive Compliance Tasks that are IPO Ready or cancelled. Find them here once archived.",
+      "cta_primary": "Set automation"
+    },
+    "archive_cycles": {
+      "title": "No archived IPO Readiness yet",
+      "description": "To tidy up your IPO Workspace, archive IPO Ready IPO Readiness. Find them here once archived."
+    },
+    "archive_modules": {
+      "title": "No archived Tasks yet",
+      "description": "To tidy up your IPO Workspace, archive IPO Ready or cancelled Tasks. Find them here once archived."
+    },
+    "home_widget_quick_links": {
+      "title": "Keep important references, resources, or docs handy for Compliance Tasks"
+    },
+    "inbox_sidebar_all": {
+      "title": "Updates for your subscribed Compliance Tasks will appear here"
+    },
+    "inbox_sidebar_mentions": {
+      "title": "Mentions for Compliance Tasks items will appear here"
+    },
+    "your_work_by_priority": {
+      "title": "No Compliance Task assigned yet"
+    },
+    "your_work_by_state": {
+      "title": "No Compliance Task assigned yet"
+    },
+    "views": {
+      "title": "No Compliance Flags yet",
+      "description": "Add Compliance Tasks to your IPO Workspace and use Compliance Flags to filter, sort, and monitor progress effortlessly.",
+      "cta_primary": "Add Compliance Task"
+    },
+    "drafts": {
+      "title": "Half-written Compliance Tasks",
+      "description": "To try this out, start adding a Compliance Task and leave it mid-way or create your first Generated Document below. 😉",
+      "cta_primary": "Create draft Compliance Task"
+    },
+    "projects_archived": {
+      "title": "No IPO Workspaces archived",
+      "description": "Looks like all your IPO Workspaces are still active—great job!"
+    },
+    "analytics_projects": {
+      "title": "Create IPO Workspaces to visualize IPO Workspace metrics here."
+    },
+    "analytics_work_items": {
+      "title": "Create IPO Workspaces with Compliance Tasks and assignees to start tracking performance, progress, and team impact here."
+    },
+    "analytics_no_cycle": {
+      "title": "Create IPO Readiness to organise work into time-bound phases and track progress across sprints."
+    },
+    "analytics_no_module": {
+      "title": "Create Tasks to organize Compliance Tasks and track progress across different stages."
+    },
+    "analytics_no_intake": {
+      "title": "Set up intake to manage incoming requests and track how they're accepted and rejected"
+    },
+    "home_widget_stickies": {
+      "title": "Jot down an idea, capture an aha, or record a brainwave. Add a sticky to get started."
+    },
+    "stickies": {
+      "title": "Capture ideas instantly",
+      "description": "Create stickies for quick notes and to-dos, and keep them with you wherever you go.",
+      "cta_primary": "Create first sticky",
+      "cta_secondary": "Documentation"
+    },
+    "active_cycles": {
+      "title": "No active IPO Readiness",
+      "description": "You don't have any ongoing IPO Readiness right now. Active IPO Readiness appear here when they include today's date."
+    },
+    "dashboard": {
+      "title": "Visualize your progress with dashboards",
+      "description": "Build customizable dashboards to track metrics, measure outcomes, and present insights effectively.",
+      "cta_primary": "Create new IPO Command Center"
+    },
+    "wiki": {
+      "title": "Write a note, a doc, or a full knowledge base.",
+      "description": "Company Records are thought spotting space in Trinity Intelligence. Take down meeting notes, format them easily, embed Compliance Tasks, lay them out using a library of components, and keep them all in your IPO Workspace's context.",
+      "cta_primary": "Create your Company Record"
+    },
+    "project_overview_state_sidebar": {
+      "title": "Enable IPO Workspace states",
+      "description": "Enable IPO Workspace States to view and manage properties like state, priority, due dates and more."
+    }
+  },
+  "settings_empty_state": {
+    "estimates": {
+      "title": "No estimates yet",
+      "description": "Define how your team measures effort and track it consistently across all Compliance Tasks.",
+      "cta_primary": "Add estimate system"
+    },
+    "labels": {
+      "title": "No labels yet",
+      "description": "Create personalized labels to effectively categorize and manage Compliance Tasks items.",
+      "cta_primary": "Create your first label"
+    },
+    "exports": {
+      "title": "No exports yet",
+      "description": "You don't have any export records right now. Once you export data, all records will appear here."
+    },
+    "tokens": {
+      "title": "No Personal token yet",
+      "description": "Generate secure API tokens to connect your workspace with external systems and applications.",
+      "cta_primary": "Add access token"
+    },
+    "workspace_tokens": {
+      "title": "No Access tokens yet",
+      "description": "Generate secure API tokens to connect your workspace with external systems and applications.",
+      "cta_primary": "Add access token"
+    },
+    "webhooks": {
+      "title": "No Webhook added yet",
+      "description": "Automate notifications to external services when IPO Workspace events occur.",
+      "cta_primary": "Add webhook"
+    },
+    "work_item_types": {
+      "title": "Create and customize Compliance Task types",
+      "description": "Define unique Compliance Task types for your IPO Workspace. Each type can have its own properties, workflows, and fields - tailored to your IPO Workspace and team's needs.",
+      "cta_primary": "Enable"
+    },
+    "work_item_type_properties": {
+      "title": "Define the property and details you want to capture for this Compliance Task type. Customize it to match your IPO Workspace's workflow.",
+      "cta_secondary": "Add property"
+    },
+    "templates": {
+      "title": "No templates yet",
+      "description": "Reduce setup time by creating templates for Compliance Tasks, and Company Records — and start new work in seconds.",
+      "cta_primary": "Create your first template"
+    },
+    "recurring_work_items": {
+      "title": "No recurring Compliance Task yet",
+      "description": "Set up recurring Compliance Tasks to automate repeat Compliance Tasks and stay on schedule effortlessly.",
+      "cta_primary": "Create recurring Compliance Task"
+    },
+    "worklogs": {
+      "title": "Track timesheets for all members",
+      "description": "Log time on Compliance Tasks to view detailed timesheets for any team member across IPO Workspaces."
+    },
+    "group_syncing": {
+      "title": "No group mappings yet"
+    },
+    "template_setting": {
+      "title": "No templates yet",
+      "description": "Reduce setup time by creating templates for IPO Workspaces, Compliance Tasks, and Company Records — and start new work in seconds.",
+      "cta_primary": "Create template"
+    },
+    "workflows": {
+      "title": "No workflows yet",
+      "description": "Create workflows to manage the progress of Compliance Tasks items.",
+      "cta_primary": "Add new workflow",
+      "states": {
+        "title": "Add states",
+        "description": "Select the states through which the Compliance Task progresses."
+      }
+    }
+  }
+}

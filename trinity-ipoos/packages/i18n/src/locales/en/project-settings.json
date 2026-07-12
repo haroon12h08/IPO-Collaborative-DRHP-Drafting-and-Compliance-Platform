@@ -1,0 +1,526 @@
+{
+  "project_settings": {
+    "general": {
+      "enter_project_id": "Enter IPO Workspace ID",
+      "please_select_a_timezone": "Please select a timezone",
+      "archive_project": {
+        "title": "Archive IPO Workspace",
+        "description": "Archiving a IPO Workspace will unlist your IPO Workspace from your side navigation although you will still be able to access it from your IPO Workspaces Company Record. You can restore the IPO Workspace or delete it whenever you want.",
+        "button": "Archive IPO Workspace"
+      },
+      "delete_project": {
+        "title": "Delete IPO Workspace",
+        "description": "When deleting a IPO Workspace, all of the data and resources within that IPO Workspace will be permanently removed and cannot be recovered.",
+        "button": "Delete my IPO Workspace"
+      },
+      "toast": {
+        "success": "IPO Workspace updated successfully",
+        "error": "IPO Workspace could not be updated. Please try again."
+      }
+    },
+    "members": {
+      "label": "Members",
+      "project_lead": "IPO Workspace lead",
+      "project_lead_description": "Select the IPO Workspace lead for the IPO Workspace.",
+      "default_assignee": "Default assignee",
+      "default_assignee_description": "Select the default assignee for the IPO Workspace.",
+      "project_subscribers": "IPO Workspace subscribers",
+      "project_subscribers_description": "Select members who will receive notifications for this IPO Workspace.",
+      "guest_super_permissions": {
+        "title": "Grant view access to all Compliance Tasks for guest users:",
+        "sub_heading": "This will allow guests to have view access to all the IPO Workspace Compliance Tasks."
+      },
+      "invite_members": {
+        "title": "Invite members",
+        "sub_heading": "Invite members to work on your IPO Workspace.",
+        "select_co_worker": "Select co-worker"
+      }
+    },
+    "states": {
+      "heading": "States",
+      "description": "Define and customize workflow states to track the progress of Compliance Tasks items.",
+      "describe_this_state_for_your_members": "Describe this state for your members.",
+      "empty_state": {
+        "title": "No states available for the {groupKey} group",
+        "description": "Please create a new state"
+      }
+    },
+    "labels": {
+      "heading": "Labels",
+      "description": "Create custom labels to categorize and organize Compliance Tasks items",
+      "label_title": "Label title",
+      "label_title_is_required": "Label title is required",
+      "label_max_char": "Label name should not exceed 255 characters",
+      "toast": {
+        "error": "Error while updating the label"
+      }
+    },
+    "estimates": {
+      "heading": "Estimates",
+      "description": "Set up estimation systems to track and communicate the effort required for each Compliance Task.",
+      "label": "Estimates",
+      "title": "Enable estimates for my IPO Workspace",
+      "enable_description": "They help you in communicating complexity and workload of the team.",
+      "no_estimate": "No estimate",
+      "new": "New estimate system",
+      "create": {
+        "custom": "Custom",
+        "start_from_scratch": "Start from scratch",
+        "choose_template": "Choose a template",
+        "choose_estimate_system": "Choose an estimate system",
+        "enter_estimate_point": "Enter estimate",
+        "step": "Step {step} of {total}",
+        "label": "Create estimate"
+      },
+      "toasts": {
+        "created": {
+          "success": {
+            "title": "Estimate created",
+            "message": "The estimate has been created successfully"
+          },
+          "error": {
+            "title": "Estimate creation failed",
+            "message": "We were unable to create the new estimate, please try again."
+          }
+        },
+        "updated": {
+          "success": {
+            "title": "Estimate modified",
+            "message": "The estimate has been updated in your IPO Workspace."
+          },
+          "error": {
+            "title": "Estimate modification failed",
+            "message": "We were unable to modify the estimate, please try again"
+          }
+        },
+        "enabled": {
+          "success": {
+            "title": "Success!",
+            "message": "Estimates have been enabled."
+          }
+        },
+        "disabled": {
+          "success": {
+            "title": "Success!",
+            "message": "Estimates have been disabled."
+          },
+          "error": {
+            "title": "Error!",
+            "message": "Estimate could not be disabled. Please try again"
+          }
+        },
+        "reorder": {
+          "success": {
+            "title": "Estimates re-ordered",
+            "message": "Estimates have been re-ordered in your IPO Workspace."
+          },
+          "error": {
+            "title": "Estimate re-order failed",
+            "message": "We were unable to re-order the estimates, please try again"
+          }
+        },
+        "switch": {
+          "success": {
+            "title": "Estimate system created",
+            "message": "Created and Enabled successfully"
+          },
+          "error": {
+            "title": "Error",
+            "message": "Something went wrong"
+          }
+        }
+      },
+      "validation": {
+        "min_length": "Estimate needs to be greater than 0.",
+        "unable_to_process": "We are unable to process your request, please try again.",
+        "numeric": "Estimate needs to be a numeric value.",
+        "character": "Estimate needs to be a character value.",
+        "empty": "Estimate value cannot be empty.",
+        "already_exists": "Estimate value already exists.",
+        "unsaved_changes": "You have some unsaved changes, Please save them before clicking on done",
+        "remove_empty": "Estimate can't be empty. Enter a value in each field or remove those you don't have values for.",
+        "fill": "Please fill this estimate field",
+        "repeat": "Estimate value cannot be repeated"
+      },
+      "systems": {
+        "points": {
+          "label": "Points",
+          "fibonacci": "Fibonacci",
+          "linear": "Linear",
+          "squares": "Squares",
+          "custom": "Custom"
+        },
+        "categories": {
+          "label": "Categories",
+          "t_shirt_sizes": "T-Shirt Sizes",
+          "easy_to_hard": "Easy to hard",
+          "custom": "Custom"
+        },
+        "time": {
+          "label": "Time",
+          "hours": "Hours"
+        }
+      },
+      "edit": {
+        "title": "Edit estimate system",
+        "add_or_update": {
+          "title": "Add, update or remove estimates",
+          "description": "Manage current system either adding, updating or removing the points or categories."
+        },
+        "switch": {
+          "title": "Change estimate type",
+          "description": "Convert your points system to categories system and vice versa."
+        }
+      },
+      "switch": "Switch estimate system",
+      "current": "Current estimate system",
+      "select": "Select an estimate system"
+    },
+    "automations": {
+      "label": "Automations",
+      "heading": "Automations",
+      "description": "Configure automated actions to streamline your IPO Workspace management workflow and reduce manual Compliance Tasks.",
+      "auto-archive": {
+        "title": "Auto-archive closed Compliance Tasks",
+        "description": "Trinity Intelligence will auto archive Compliance Tasks that have been IPO Ready or canceled.",
+        "duration": "Auto-archive Compliance Tasks that are closed for"
+      },
+      "auto-close": {
+        "title": "Auto-close Compliance Tasks",
+        "description": "Trinity Intelligence will automatically close Compliance Tasks that haven't been IPO Ready or canceled.",
+        "duration": "Auto-close Compliance Tasks that are inactive for",
+        "auto_close_status": "Auto-close IPO Readiness"
+      },
+      "auto-remind": {
+        "title": "Auto-reminders",
+        "description": "Trinity Intelligence will automatically send reminders via email and in-app notifications to keep your team on track with deadlines.",
+        "duration": "Send reminder before"
+      }
+    },
+    "empty_state": {
+      "labels": {
+        "title": "No labels yet",
+        "description": "Create labels to help organize and filter Compliance Tasks in you IPO Workspace."
+      },
+      "estimates": {
+        "title": "No estimate systems yet",
+        "description": "Create a set of estimates to communicate the amount of work per Compliance Task.",
+        "primary_button": "Add estimate system"
+      },
+      "integrations": {
+        "title": "No integrations configured",
+        "description": "Configure GitHub and other integrations to sync your IPO Workspace Compliance Tasks."
+      }
+    },
+    "workflows": {
+      "toggle": {
+        "title": "Enable workflows",
+        "description": "Set workflows to control Compliance Task movement",
+        "no_states_tooltip": "No states are added to the workflow.",
+        "no_work_item_types_tooltip": "No Compliance Task types are added to the workflow.",
+        "no_states_or_work_item_types_tooltip": "No states or Compliance Task types are added to the workflow.",
+        "toast": {
+          "loading": {
+            "enabling": "Enabling workflows",
+            "disabling": "Disabling workflows"
+          },
+          "success": {
+            "title": "Success!",
+            "message": "Workflows enabled successfully."
+          },
+          "error": {
+            "title": "Error!",
+            "message": "Failed to enable workflows. Please try again."
+          }
+        }
+      },
+      "heading": "Workflows",
+      "description": "Automate Compliance Task transitions and set rules to control how Compliance Tasks move through your IPO Workspace pipeline.",
+      "add_button": "Add new workflow",
+      "search": "Search workflows",
+      "detail": {
+        "define": "Define workflow",
+        "add_states": "Add states",
+        "unmapped_states": {
+          "title": "Unmapped states detected",
+          "description": "Some Compliance Tasks for the selected types are currently in states that do not exist in this workflow.",
+          "note": "If you enable this workflow, these items will automatically move to the initial state for this workflow.",
+          "label": "Missing states",
+          "tooltip": "Some Compliance Tasks are in states that are not mapped to this workflow. Open the workflow to review."
+        }
+      },
+      "select_states": {
+        "empty_state": {
+          "title": "All states are in use",
+          "description": "All defined states for this IPO Workspace are already present in your current workflow."
+        }
+      },
+      "default_footer": {
+        "fallback_message": "This workflow applies to any Compliance Task type that is not assigned to a workflow."
+      },
+      "create": {
+        "heading": "Create new workflow",
+        "name": {
+          "placeholder": "Add a unique name",
+          "validation": {
+            "max_length": "Name must be less than 255 characters",
+            "required": "Name is required",
+            "invalid": "Name can only contain letters, numbers, spaces, hyphens, and apostrophes"
+          }
+        },
+        "description": {
+          "placeholder": "Add a short description",
+          "validation": {
+            "invalid": "Description can only contain letters, numbers, spaces, hyphens, and apostrophes"
+          }
+        },
+        "work_item_type": {
+          "label": "Compliance Task type"
+        },
+        "success": {
+          "title": "Success!",
+          "message": "Workflow created successfully."
+        },
+        "error": {
+          "title": "Error!",
+          "message": "Failed to create workflow. Please try again."
+        }
+      },
+      "update": {
+        "success": {
+          "title": "Success!",
+          "message": "Workflow updated successfully."
+        },
+        "error": {
+          "title": "Error!",
+          "message": "Failed to update workflow. Please try again."
+        }
+      },
+      "delete": {
+        "loading": "Deleting workflow",
+        "success": {
+          "title": "Success!",
+          "message": "Workflow deleted successfully."
+        },
+        "error": {
+          "title": "Error!",
+          "message": "Failed to delete workflow. Please try again."
+        }
+      },
+      "add_states": {
+        "success": {
+          "title": "Success!",
+          "message": "States added successfully."
+        },
+        "error": {
+          "title": "Error!",
+          "message": "Failed to add states. Please try again."
+        }
+      }
+    },
+    "work_item_types": {
+      "heading": "Compliance Task Types",
+      "description": "Create and customize different types of Compliance Tasks with unique properties"
+    },
+    "features": {
+      "cycles": {
+        "title": "IPO Readiness",
+        "short_title": "IPO Readiness",
+        "description": "Schedule work in flexible periods that adapt to this IPO Workspace's unique rhythm and pace.",
+        "toggle_title": "Enable IPO Readiness",
+        "toggle_description": "Plan work in focused timeframes."
+      },
+      "modules": {
+        "title": "Tasks",
+        "short_title": "Tasks",
+        "description": "Organize work into sub-IPO Workspaces with dedicated leads and assignees.",
+        "toggle_title": "Enable Tasks",
+        "toggle_description": "IPO Workspace members will be able to create and edit Tasks."
+      },
+      "views": {
+        "title": "Compliance Flags",
+        "short_title": "Compliance Flags",
+        "description": "Save custom sorts, filters, and display options or share them with your team.",
+        "toggle_title": "Enable Compliance Flags",
+        "toggle_description": "IPO Workspace members will be able to create and edit Compliance Flags."
+      },
+      "pages": {
+        "title": "Company Records",
+        "short_title": "Company Records",
+        "description": "Create and edit free-form content; notes, docs, anything.",
+        "toggle_title": "Enable Company Records",
+        "toggle_description": "IPO Workspace members will be able to create and edit Company Records."
+      },
+      "intake": {
+        "intake_responsibility": "Intake responsibility",
+        "intake_sources": "Intake sources",
+        "title": "Intake",
+        "short_title": "Intake",
+        "description": "Let non-members share bugs, feedback, and suggestions; without disrupting your workflow.",
+        "toggle_title": "Enable intake",
+        "toggle_description": "Let IPO Workspace members create in app intake requests.",
+        "toggle_tooltip_on": "Ask your IPO Workspace Admin to turn this on.",
+        "toggle_tooltip_off": "Ask your IPO Workspace Admin to turn this off.",
+        "notify_assignee": {
+          "title": "Notify assignees",
+          "description": "For a new request to intake, default assignees will be alerted via notifications"
+        },
+        "in_app": {
+          "title": "In-app",
+          "description": "Get new Compliance Tasks from Members and Guests in your workspace without disruption to your existing Compliance Tasks."
+        },
+        "email": {
+          "title": "Email",
+          "description": "Collect new Compliance Tasks from anyone who sends an email to a Trinity Intelligence email address.",
+          "fieldName": "Email ID"
+        },
+        "form": {
+          "title": "Forms",
+          "description": "Let folks outside your workspace create potential new Compliance Tasks for you via a dedicated and secure form.",
+          "fieldName": "Default form URL",
+          "create_forms": "Create Forms using Compliance Task types",
+          "manage_forms": "Manage forms",
+          "manage_forms_tooltip": "Ask your Workspace Admin to manage this.",
+          "create_form": "Create form",
+          "edit_form": "Edit form details",
+          "form_title": "Form title",
+          "form_title_required": "Form title is required",
+          "work_item_type": "Compliance Task type",
+          "remove_property": "Remove property",
+          "select_properties": "Select properties",
+          "search_placeholder": "Search for properties",
+          "toasts": {
+            "success_create": "Intake form created successfully",
+            "success_update": "Intake form updated successfully",
+            "error_create": "Failed to create intake form",
+            "error_update": "Failed to update intake form"
+          }
+        },
+        "toasts": {
+          "set": {
+            "loading": "Setting assignees...",
+            "success": {
+              "title": "Success!",
+              "message": "Assignees set successfully."
+            },
+            "error": {
+              "title": "Error!",
+              "message": "Something went wrong while setting assignees. Please try again."
+            }
+          }
+        }
+      },
+      "time_tracking": {
+        "title": "Time tracking",
+        "short_title": "Time tracking",
+        "description": "Log time spent on Compliance Tasks and IPO Workspaces.",
+        "toggle_title": "Enable time tracking",
+        "toggle_description": "IPO Workspace members will be able to log time worked."
+      },
+      "milestones": {
+        "title": "Milestones",
+        "short_title": "Milestones",
+        "description": "Milestones provide a layer to align Compliance Tasks toward shared completion dates.",
+        "toggle_title": "Enable milestones",
+        "toggle_description": "Organize Compliance Tasks by milestone deadlines."
+      },
+      "toasts": {
+        "loading": "Updating IPO Workspace feature...",
+        "success": "IPO Workspace feature updated successfully.",
+        "error": "Something went wrong while updating IPO Workspace feature. Please try again."
+      }
+    },
+    "project_updates": {
+      "heading": "IPO Workspace Updates",
+      "description": "Consolidated tracking and progress monitoring for this IPO Workspace"
+    },
+    "templates": {
+      "heading": "Templates",
+      "description": "Save 80% time spent on creating IPO Workspaces, Compliance Tasks, and Company Records when you use templates."
+    },
+    "cycles": {
+      "auto_schedule": {
+        "heading": "Auto-schedule IPO Readiness",
+        "description": "Keep IPO Readiness moving without manual setup.",
+        "tooltip": "Automatically create new IPO Readiness based on your chosen schedule.",
+        "edit_button": "Edit",
+        "form": {
+          "cycle_title": {
+            "label": "IPO Readiness Title",
+            "placeholder": "Title",
+            "tooltip": "The title will be appended with numbers for subsequent IPO Readiness. For eg: Design - 1/2/3",
+            "validation": {
+              "required": "IPO Readiness title is required",
+              "max_length": "Title must not exceed 255 characters"
+            }
+          },
+          "cycle_duration": {
+            "label": "IPO Readiness Duration",
+            "unit": "Weeks",
+            "validation": {
+              "required": "IPO Readiness duration is required",
+              "min": "IPO Readiness duration must be at least 1 week",
+              "max": "IPO Readiness duration cannot exceed 30 weeks",
+              "positive": "IPO Readiness duration must be positive"
+            }
+          },
+          "cooldown_period": {
+            "label": "Cooldown Period",
+            "unit": "days",
+            "tooltip": "Pause between IPO Readiness before the next begins.",
+            "validation": {
+              "required": "Cooldown period is required",
+              "negative": "Cooldown period cannot be negative"
+            }
+          },
+          "start_date": {
+            "label": "IPO Readiness starts day",
+            "validation": {
+              "required": "Start date is required",
+              "past": "Start date cannot be in the past"
+            }
+          },
+          "number_of_cycles": {
+            "label": "Number of future IPO Readiness",
+            "validation": {
+              "required": "Number of IPO Readiness is required",
+              "min": "At least 1 IPO Readiness is required",
+              "max": "Cannot schedule more than 3 IPO Readiness"
+            }
+          },
+          "auto_rollover": {
+            "label": "Auto-rollover Compliance Tasks",
+            "tooltip": "On the day a IPO Readiness completes, move all unfinished Compliance Tasks into the next IPO Readiness."
+          }
+        },
+        "toast": {
+          "toggle": {
+            "loading_enable": "Enabling auto-schedule IPO Readiness",
+            "loading_disable": "Disabling auto-schedule IPO Readiness",
+            "success": {
+              "title": "Success!",
+              "message": "Auto-schedule IPO Readiness toggled successfully."
+            },
+            "error": {
+              "title": "Error!",
+              "message": "Failed to toggle auto-schedule IPO Readiness."
+            }
+          },
+          "save": {
+            "loading": "Saving auto-schedule IPO Readiness configuration",
+            "success": {
+              "title": "Success!",
+              "message_create": "Auto-schedule IPO Readiness configuration saved successfully.",
+              "message_update": "Auto-schedule IPO Readiness configuration updated successfully."
+            },
+            "error": {
+              "title": "Error!",
+              "message_create": "Failed to save auto-schedule IPO Readiness configuration.",
+              "message_update": "Failed to update auto-schedule IPO Readiness configuration."
+            }
+          }
+        }
+      }
+    }
+  }
+}

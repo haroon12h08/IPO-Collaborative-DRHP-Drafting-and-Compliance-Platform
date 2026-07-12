@@ -1,0 +1,68 @@
+{
+  "section_id": "capital_structure",
+  "section_title": "Capital Structure & Promoter Shareholding",
+  "regulation_reference": "SEBI ICDR Regulations 2018, Chapter IX, Schedule VI, Part A, Clauses 4 & 5",
+  "description": "Disclosure of the capital structure of the company including details of authorized, issued, subscribed and paid-up share capital, and the shareholding pattern of promoters and promoter group.",
+  "fields": {
+    "shareholder_name": {
+      "label": "Shareholder Name",
+      "type": "string",
+      "required": true,
+      "max_length": 255,
+      "icdr_clause": "Schedule VI, Part A, Clause 5(a)",
+      "icdr_text": "Name of the promoter/shareholder.",
+      "help_text": "Full legal name of the shareholder."
+    },
+    "category": {
+      "label": "Shareholder Category",
+      "type": "choice",
+      "choices": ["promoter", "promoter_group", "public"],
+      "choice_labels": {
+        "promoter": "Promoter",
+        "promoter_group": "Promoter Group",
+        "public": "Public Shareholder"
+      },
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 5(b)",
+      "icdr_text": "Category of the shareholder as defined under Regulation 2(1)(oo) and 2(1)(pp) of SEBI ICDR.",
+      "help_text": "Category under SEBI regulations — Promoter, Promoter Group, or Public."
+    },
+    "number_of_shares": {
+      "label": "Number of Equity Shares",
+      "type": "integer",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 5(c)",
+      "icdr_text": "Number of equity shares held.",
+      "help_text": "Total number of equity shares held by this shareholder."
+    },
+    "percentage_holding": {
+      "label": "Percentage Holding (%)",
+      "type": "decimal",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 5(c)",
+      "icdr_text": "Percentage of equity shares held in relation to the total paid-up capital.",
+      "help_text": "Shareholding as a percentage of total paid-up capital."
+    },
+    "date_of_acquisition": {
+      "label": "Date of Acquisition / Allotment",
+      "type": "date",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 5(d)",
+      "icdr_text": "Date on which shares were acquired or allotted and the price at which such shares were acquired.",
+      "help_text": "Date when the shares were acquired or allotted."
+    },
+    "acquisition_price_per_share": {
+      "label": "Acquisition Price per Share (₹)",
+      "type": "decimal",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 5(d)",
+      "icdr_text": "Price at which such shares were acquired.",
+      "help_text": "Price paid per equity share at the time of acquisition."
+    }
+  },
+  "notes": [
+    "Promoter shareholding must be disclosed both pre-issue and post-issue.",
+    "Lock-in requirements: Minimum promoters' contribution of 20% of post-issue capital is locked in for 3 years (Regulation 236).",
+    "All changes in shareholding in the last 3 years must be disclosed with consideration details."
+  ]
+}

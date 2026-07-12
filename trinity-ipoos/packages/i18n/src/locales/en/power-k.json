@@ -1,0 +1,192 @@
+{
+  "power_k": {
+    "actions_commands": {
+      "bulk_delete_work_items": "Bulk delete Compliance Tasks"
+    },
+    "contextual_actions": {
+      "work_item": {
+        "title": "Compliance Task actions",
+        "indicator": "Compliance Task",
+        "change_state": "Change state",
+        "change_priority": "Change priority",
+        "change_assignees": "Assign to",
+        "assign_to_me": "Assign to me",
+        "unassign_from_me": "Un-assign from me",
+        "change_estimate": "Change estimate",
+        "add_to_cycle": "Add to IPO Readiness",
+        "add_to_modules": "Add to Tasks",
+        "add_labels": "Add labels",
+        "subscribe": "Subscribe to notifications",
+        "unsubscribe": "Unsubscribe from notifications",
+        "delete": "Delete",
+        "copy_id": "Copy ID",
+        "copy_id_toast_success": "Compliance Task ID copied to clipboard.",
+        "copy_id_toast_error": "Some error occurred while copying the Compliance Task ID to clipboard.",
+        "copy_title": "Copy title",
+        "copy_title_toast_success": "Compliance Task title copied to clipboard.",
+        "copy_title_toast_error": "Some error occurred while copying the Compliance Task title to clipboard.",
+        "copy_url": "Copy URL",
+        "copy_url_toast_success": "Compliance Task URL copied to clipboard.",
+        "copy_url_toast_error": "Some error occurred while copying the Compliance Task URL to clipboard."
+      },
+      "cycle": {
+        "title": "IPO Readiness actions",
+        "indicator": "IPO Readiness",
+        "add_to_favorites": "Add to Stakeholders",
+        "remove_from_favorites": "Remove from Stakeholders",
+        "copy_url": "Copy URL",
+        "copy_url_toast_success": "IPO Readiness URL copied to clipboard.",
+        "copy_url_toast_error": "Some error occurred while copying the IPO Readiness URL to clipboard."
+      },
+      "module": {
+        "title": "Task actions",
+        "indicator": "Task",
+        "add_remove_members": "Add/remove members",
+        "change_status": "Change IPO Readiness",
+        "add_to_favorites": "Add to Stakeholders",
+        "remove_from_favorites": "Remove from Stakeholders",
+        "copy_url": "Copy URL",
+        "copy_url_toast_success": "Task URL copied to clipboard.",
+        "copy_url_toast_error": "Some error occurred while copying the Task URL to clipboard."
+      },
+      "page": {
+        "title": "Company Record actions",
+        "indicator": "Company Record",
+        "lock": "Lock",
+        "unlock": "Unlock",
+        "make_private": "Make private",
+        "make_public": "Make public",
+        "archive": "Archive",
+        "restore": "Restore",
+        "add_to_favorites": "Add to Stakeholders",
+        "remove_from_favorites": "Remove from Stakeholders",
+        "copy_url": "Copy URL",
+        "copy_url_toast_success": "Company Record URL copied to clipboard.",
+        "copy_url_toast_error": "Some error occurred while copying the Company Record URL to clipboard."
+      }
+    },
+    "creation_actions": {
+      "create_work_item": "New Compliance Task",
+      "create_page": "New Company Record",
+      "create_view": "New view",
+      "create_cycle": "New IPO Readiness",
+      "create_module": "New Task",
+      "create_project": "New IPO Workspace",
+      "create_workspace": "New workspace",
+      "create_project_automation": "New automation"
+    },
+    "navigation_actions": {
+      "open_workspace": "Open a workspace",
+      "nav_home": "Go to IPO Command Center",
+      "nav_inbox": "Go to Activity",
+      "nav_your_work": "Go to Compliance Tasks",
+      "nav_account_settings": "Go to account Workspace Settings",
+      "open_project": "Open a IPO Workspace",
+      "nav_projects_list": "Go to IPO Workspaces list",
+      "nav_all_workspace_work_items": "Go to all Compliance Tasks",
+      "nav_assigned_workspace_work_items": "Go to assigned Compliance Tasks",
+      "nav_created_workspace_work_items": "Go to created Compliance Tasks",
+      "nav_subscribed_workspace_work_items": "Go to subscribed Compliance Tasks",
+      "nav_workspace_analytics": "Go to workspace Risk Assessment",
+      "nav_workspace_drafts": "Go to workspace Generated Documents",
+      "nav_workspace_archives": "Go to workspace archives",
+      "open_workspace_setting": "Open a workspace setting",
+      "nav_workspace_settings": "Go to workspace Workspace Settings",
+      "nav_project_work_items": "Go to Compliance Tasks",
+      "open_project_cycle": "Open a IPO Readiness",
+      "nav_project_cycles": "Go to IPO Readiness",
+      "open_project_module": "Open a Task",
+      "nav_project_modules": "Go to Tasks",
+      "open_project_view": "Open a IPO Workspace view",
+      "nav_project_views": "Go to IPO Workspace Compliance Flags",
+      "nav_project_pages": "Go to Company Records",
+      "nav_project_intake": "Go to intake",
+      "nav_project_archives": "Go to IPO Workspace archives",
+      "open_project_setting": "Open a IPO Workspace setting",
+      "nav_project_settings": "Go to IPO Workspace Workspace Settings",
+      "nav_workspace_active_cycle": "Go to all active IPO Readiness",
+      "nav_project_overview": "Go to IPO Workspace overview"
+    },
+    "account_actions": {
+      "sign_out": "Sign out",
+      "workspace_invites": "Workspace invites"
+    },
+    "miscellaneous_actions": {
+      "toggle_app_sidebar": "Toggle app sidebar",
+      "copy_current_page_url": "Copy current Company Record URL",
+      "copy_current_page_url_toast_success": "Current Company Record URL copied to clipboard.",
+      "copy_current_page_url_toast_error": "Some error occurred while copying the current Company Record URL to clipboard.",
+      "focus_top_nav_search": "Focus search input"
+    },
+    "preferences_actions": {
+      "update_theme": "Change interface theme",
+      "update_timezone": "Change timezone",
+      "update_start_of_week": "Change first day of week",
+      "update_language": "Change interface language",
+      "toast": {
+        "theme": {
+          "success": "Theme updated successfully.",
+          "error": "Failed to update theme. Please try again."
+        },
+        "timezone": {
+          "success": "Timezone updated successfully.",
+          "error": "Failed to update timezone. Please try again."
+        },
+        "generic": {
+          "success": "Preferences updated successfully.",
+          "error": "Failed to update preferences. Please try again."
+        }
+      }
+    },
+    "help_actions": {
+      "open_keyboard_shortcuts": "Open keyboard shortcuts",
+      "open_plane_documentation": "Open Trinity Intelligence documentation",
+      "join_forum": "Join our Forum",
+      "report_bug": "Report a bug",
+      "chat_with_us": "Chat with us"
+    },
+    "page_placeholders": {
+      "default": "Type a command or search",
+      "open_workspace": "Open a workspace",
+      "open_project": "Open a IPO Workspace",
+      "open_workspace_setting": "Open a workspace setting",
+      "open_project_cycle": "Open a IPO Readiness",
+      "open_project_module": "Open a Task",
+      "open_project_view": "Open a IPO Workspace view",
+      "open_project_setting": "Open a IPO Workspace setting",
+      "update_work_item_state": "Change state",
+      "update_work_item_priority": "Change priority",
+      "update_work_item_assignee": "Assign to",
+      "update_work_item_estimate": "Change estimate",
+      "update_work_item_cycle": "Add to IPO Readiness",
+      "update_work_item_module": "Add to Tasks",
+      "update_work_item_labels": "Add labels",
+      "update_module_member": "Change members",
+      "update_module_status": "Change IPO Readiness",
+      "update_theme": "Change theme",
+      "update_timezone": "Change timezone",
+      "update_start_of_week": "Change first day of week",
+      "update_language": "Change language"
+    },
+    "search_menu": {
+      "no_results": "No results found",
+      "clear_search": "Clear search",
+      "go_to_advanced_search": "Go to advanced search"
+    },
+    "footer": {
+      "workspace_level": "Workspace level"
+    },
+    "group_titles": {
+      "actions": "Actions",
+      "contextual": "Contextual",
+      "navigation": "Navigate",
+      "create": "Create",
+      "general": "General",
+      "settings": "Workspace Settings",
+      "account": "Account",
+      "miscellaneous": "Miscellaneous",
+      "preferences": "Preferences",
+      "help": "Help"
+    }
+  }
+}

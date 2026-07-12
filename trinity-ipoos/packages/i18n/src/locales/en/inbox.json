@@ -1,0 +1,87 @@
+{
+  "inbox_issue": {
+    "status": {
+      "pending": {
+        "title": "Pending",
+        "description": "Pending"
+      },
+      "declined": {
+        "title": "Declined",
+        "description": "Declined"
+      },
+      "snoozed": {
+        "title": "Snoozed",
+        "description": "{days, plural, one{# day} other{# days}} to go"
+      },
+      "accepted": {
+        "title": "Accepted",
+        "description": "Accepted"
+      },
+      "duplicate": {
+        "title": "Duplicate",
+        "description": "Duplicate"
+      }
+    },
+    "modals": {
+      "decline": {
+        "title": "Decline Compliance Task",
+        "content": "Are you sure you want to decline Compliance Task {value}?"
+      },
+      "delete": {
+        "title": "Delete Compliance Task",
+        "content": "Are you sure you want to delete Compliance Task {value}?",
+        "success": "Compliance Task deleted successfully"
+      }
+    },
+    "errors": {
+      "snooze_permission": "Only IPO Workspace admins can snooze/Un-snooze Compliance Tasks",
+      "accept_permission": "Only IPO Workspace admins can accept Compliance Tasks",
+      "decline_permission": "Only IPO Workspace admins can deny Compliance Tasks"
+    },
+    "actions": {
+      "accept": "Accept",
+      "decline": "Decline",
+      "snooze": "Snooze",
+      "unsnooze": "Un snooze",
+      "copy": "Copy Compliance Task link",
+      "delete": "Delete",
+      "open": "Open Compliance Task",
+      "mark_as_duplicate": "Mark as duplicate",
+      "move": "Move {value} to IPO Workspace Compliance Tasks"
+    },
+    "source": {
+      "in-app": "in-app"
+    },
+    "order_by": {
+      "created_at": "Created at",
+      "updated_at": "Updated at",
+      "id": "ID"
+    },
+    "label": "Intake",
+    "page_label": "{workspace} - Intake",
+    "modal": {
+      "title": "Create intake Compliance Task"
+    },
+    "tabs": {
+      "open": "Open",
+      "closed": "Closed"
+    },
+    "empty_state": {
+      "sidebar_open_tab": {
+        "title": "No open Compliance Tasks",
+        "description": "Find open Compliance Tasks here. Create new Compliance Task."
+      },
+      "sidebar_closed_tab": {
+        "title": "No closed Compliance Tasks",
+        "description": "All the Compliance Tasks whether accepted or declined can be found here."
+      },
+      "sidebar_filter": {
+        "title": "No matching Compliance Tasks",
+        "description": "No Compliance Task matches filter applied in intake. Create a new Compliance Task."
+      },
+      "detail": {
+        "title": "Select a Compliance Task to view its details."
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "command_k": {
+    "empty_state": {
+      "search": {
+        "title": "No results found"
+      }
+    }
+  },
+  "sidebar": {
+    "stickies": "Stickies",
+    "your_work": "Compliance Tasks",
+    "projects": "IPO Workspaces",
+    "pages": "Company Records",
+    "new_work_item": "New Compliance Task",
+    "home": "IPO Command Center",
+    "inbox": "Activity",
+    "workspace": "Workspace",
+    "views": "Compliance Flags",
+    "analytics": "Risk Assessment",
+    "work_items": "Compliance Tasks",
+    "cycles": "IPO Readiness",
+    "modules": "Tasks",
+    "intake": "Intake",
+    "drafts": "Generated Documents",
+    "favorites": "Stakeholders",
+    "pro": "Pro",
+    "upgrade": "Upgrade",
+    "pi_chat": "IPO Intelligence",
+    "epics": "Epics",
+    "upgrade_plan": "Upgrade plan",
+    "plane_pro": "Trinity Intelligence Pro",
+    "business": "Business"
+  }
+}

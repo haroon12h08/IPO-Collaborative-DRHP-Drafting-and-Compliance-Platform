@@ -1,0 +1,88 @@
+{
+  "section_id": "related_party_transactions",
+  "section_title": "Related Party Transactions",
+  "regulation_reference": "SEBI ICDR Regulations 2018, Chapter IX, Schedule VI, Part A, Clause 14",
+  "description": "Disclosure of all material related party transactions entered into by the company with related parties, as defined under the Companies Act 2013 and applicable Accounting Standards (AS-18 / Ind AS 24).",
+  "fields": {
+    "related_party_name": {
+      "label": "Related Party Name",
+      "type": "string",
+      "required": true,
+      "max_length": 255,
+      "icdr_clause": "Schedule VI, Part A, Clause 14(a)",
+      "icdr_text": "Name of the related party with whom the transaction has been entered into.",
+      "help_text": "Full legal name of the related party."
+    },
+    "relationship_type": {
+      "label": "Relationship Type",
+      "type": "choice",
+      "choices": [
+        "promoter",
+        "promoter_group",
+        "director",
+        "key_management_personnel",
+        "subsidiary",
+        "associate",
+        "joint_venture",
+        "relative_of_director",
+        "entity_with_common_control",
+        "other"
+      ],
+      "choice_labels": {
+        "promoter": "Promoter",
+        "promoter_group": "Promoter Group Entity",
+        "director": "Director",
+        "key_management_personnel": "Key Management Personnel",
+        "subsidiary": "Subsidiary Company",
+        "associate": "Associate Company",
+        "joint_venture": "Joint Venture",
+        "relative_of_director": "Relative of Director/KMP",
+        "entity_with_common_control": "Entity under Common Control",
+        "other": "Other Related Party"
+      },
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 14(b)",
+      "icdr_text": "Nature of relationship as defined under Section 2(76) of the Companies Act, 2013.",
+      "help_text": "Select the nature of relationship with the related party."
+    },
+    "transaction_type": {
+      "label": "Transaction Type",
+      "type": "string",
+      "required": true,
+      "max_length": 255,
+      "icdr_clause": "Schedule VI, Part A, Clause 14(c)",
+      "icdr_text": "Nature of the transaction entered into.",
+      "help_text": "Describe the nature of the transaction (e.g., sale of goods, purchase of services, loan given/taken, rent paid/received)."
+    },
+    "amount": {
+      "label": "Transaction Amount (₹ in Lakhs)",
+      "type": "decimal",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 14(d)",
+      "icdr_text": "Amount of the transaction in the relevant financial year.",
+      "help_text": "Total transaction amount in the financial year."
+    },
+    "financial_year": {
+      "label": "Financial Year",
+      "type": "string",
+      "required": true,
+      "max_length": 9,
+      "icdr_clause": "Schedule VI, Part A, Clause 14(d)",
+      "icdr_text": "Details for each of the three preceding financial years and the stub period.",
+      "help_text": "Financial year in format 'YYYY-YYYY' (e.g., 2023-2024)."
+    },
+    "is_arms_length": {
+      "label": "At Arm's Length?",
+      "type": "boolean",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 14(e)",
+      "icdr_text": "Whether the transaction was conducted at arm's length and in the ordinary course of business.",
+      "help_text": "Indicate whether this transaction was conducted at arm's length pricing."
+    }
+  },
+  "notes": [
+    "Related party transactions must be disclosed for the last 3 financial years and the stub period.",
+    "Arm's length assessment should be supported by independent valuation where material.",
+    "All transactions exceeding 10% of the company's revenue or net worth should be individually highlighted."
+  ]
+}

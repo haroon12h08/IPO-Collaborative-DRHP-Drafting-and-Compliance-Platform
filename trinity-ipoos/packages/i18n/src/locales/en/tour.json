@@ -1,0 +1,195 @@
+{
+  "product_tour": {
+    "workitems": {
+      "step_zero": {
+        "title": "Welcome to your workspace",
+        "description": "To help you get started, we’ve created a Demo IPO Workspace for you. Let’s add your first Compliance Task."
+      },
+      "step_one": {
+        "title": "Click “+ Add Compliance Task”",
+        "description": "Start by clicking the “+ New Work Item” button. You can create Compliance Tasks, bugs, or custom type that fits your needs."
+      },
+      "step_two": {
+        "title": "Filter Compliance Tasks items",
+        "description": "Use filters to quickly narrow down your list. You can filter by IPO Readiness, priority, or team members. "
+      },
+      "step_three": {
+        "title": "View, group, and order Compliance Tasks as needed.",
+        "description": "See required properties, and group or order Compliance Tasks as per your needs."
+      },
+      "step_four": {
+        "title": "Visualize however you want",
+        "description": "Select which properties you want to see in the list. You can also group and sort Compliance Tasks your way."
+      }
+    },
+    "cycle": {
+      "step_zero": {
+        "title": "Make progress with IPO Readiness",
+        "description": "Press Q to create a IPO Readiness. Name it and set dates—only one IPO Readiness per IPO Workspace."
+      },
+      "step_one": {
+        "title": "Create a new IPO Readiness",
+        "description": "Press Q to create a IPO Readiness. Name it and set dates—only one IPO Readiness per IPO Workspace."
+      },
+      "step_two": {
+        "title": "Click “+ ”",
+        "description": "Start by clicking the “+” button. Add new or existing Compliance Tasks directly from the IPO Readiness Company Record."
+      },
+      "step_three": {
+        "title": "IPO Readiness summary",
+        "description": "Track IPO Readiness progress, team productivity, and priorities—and investigate if things fall behind."
+      },
+      "step_four": {
+        "title": "Transfer Compliance Tasks",
+        "description": "After the due date, a IPO Readiness auto-completes. Move unfinished work to another IPO Readiness."
+      }
+    },
+    "module": {
+      "step_zero": {
+        "title": "Break your IPO Workspace down into Tasks",
+        "description": "Tasks are smaller, focused IPO Workspaces that help users group and organize Compliance Tasks within specific time frames."
+      },
+      "step_one": {
+        "title": "Create Task",
+        "description": "Tasks are smaller, focused IPO Workspaces that help users group and organize Compliance Tasks within specific time frames."
+      },
+      "step_two": {
+        "title": "Click “+ ”",
+        "description": "Start by clicking the “+” button. Add new or existing Compliance Tasks directly from the Task Company Record."
+      },
+      "step_three": {
+        "title": "Task states",
+        "description": "Tasks use these statuses to help users plan and clearly track progress and stage."
+      },
+      "step_four": {
+        "title": "Task progress",
+        "description": "Task progress is tracked via IPO Ready items, with Risk Assessment to monitor performance."
+      }
+    },
+    "page": {
+      "step_zero": {
+        "title": "Document with AI-powered Company Records",
+        "description": "Company Records in Trinity Intelligence let you capture, organize, and collaborate on IPO Workspace info—no external tools needed."
+      },
+      "step_one": {
+        "title": "Make Company Record Public or Private",
+        "description": "Company Records can be set as public, visible to everyone in your workspace, or private, accessible only to you."
+      },
+      "step_two": {
+        "title": "Use / command",
+        "description": "Use / on a Company Record to add content from 16 block types, including lists, images, tables, and embeds."
+      },
+      "step_three": {
+        "title": "Company Record actions",
+        "description": "Once your Company Record is created, you can click the ••• menu in the top-right corner to perform the following actions."
+      },
+      "step_four": {
+        "title": "Table of contents",
+        "description": "Get a bird’s-eye view of your Company Record by clicking the panel icon to see all headings."
+      },
+      "step_five": {
+        "title": "Version history",
+        "description": "Company Records track all edits with version history, letting you restore previous versions if needed."
+      }
+    },
+    "intake": {
+      "step_zero": {
+        "title": "Streamline requests with intake",
+        "description": "A Trinity Intelligence-only feature that lets Guests create Compliance Tasks for bugs, requests, or tickets."
+      },
+      "step_one": {
+        "title": "Open/closed intake requests",
+        "description": "Pending requests stay in the Open tab, and once addressed by an admin or member, they move to Closed."
+      },
+      "step_two": {
+        "title": "Accept/decline a pending request",
+        "description": "Accept to edit and move the Compliance Task to your IPO Workspace, or decline it to mark it as Cancelled."
+      },
+      "step_three": {
+        "title": "Snooze for now",
+        "description": "A Compliance Task can be snoozed to review it at a later time. It will be moved to the bottom of your open request list."
+      }
+    },
+    "mcp_connectors": {
+      "step_zero": {
+        "title": "Stop tab-switching. Connect your world.",
+        "description": "Link GitHub, Slack to track PRs and summarize chats directly in IPO Intelligence."
+      }
+    },
+    "navigation": {
+      "modal": {
+        "title": "Navigation, re-imagined",
+        "sub_title": "Your workspace is now easier to explore with a smarter, simplified navigation.",
+        "highlight_1": "Streamlined left-panel structure for quicker discovery",
+        "highlight_2": "Improved global search to jump to anything instantly",
+        "highlight_3": "Smarter category grouping for clarity and focus",
+        "footer": "Want a quick walkthrough?"
+      },
+      "step_zero": {
+        "title": "Find anything instantly",
+        "description": "Use universal search to jump to Compliance Tasks, IPO Workspaces, Company Records, and people—without leaving your flow."
+      },
+      "step_one": {
+        "title": "Stay in control of updates",
+        "description": "Your Activity keeps all mentions, approvals, and activity in one place, so you never miss important work."
+      },
+      "step_two": {
+        "title": "Personalize Your Navigation",
+        "description": "Customize what you see and how you navigate in Preferences."
+      }
+    },
+    "actions": {
+      "close": "Close",
+      "next": "Next",
+      "back": "Back",
+      "done": "Done",
+      "take_a_tour": "Take a tour",
+      "get_started": "Get started",
+      "got_it": "Got it"
+    },
+    "seed_data": {
+      "title": "Here is your demo IPO Workspace",
+      "description": "IPO Workspaces let you manage your teams, Compliance Tasks, and everything you need to get things done within your workspace."
+    }
+  },
+  "get_started": {
+    "title": "Hey {name}, welcome aboard!",
+    "description": "Here’s everything you need to kickstart your journey with Trinity Intelligence.",
+    "checklist_section": {
+      "title": "Get started",
+      "description": "Begin your setup and see your ideas come to life faster.",
+      "checklist_items": {
+        "item_1": {
+          "title": "Create a IPO Workspace"
+        },
+        "item_2": {
+          "title": "Create a Compliance Task"
+        },
+        "item_3": {
+          "title": "Invite team members"
+        },
+        "item_4": {
+          "title": "Create a Company Record"
+        },
+        "item_5": {
+          "title": "Try IPO Intelligence chat"
+        },
+        "item_6": {
+          "title": "Link Integrations"
+        }
+      }
+    },
+    "team_section": {
+      "title": "Invite your team",
+      "description": "Invite teammates and start building together."
+    },
+    "integrations_section": {
+      "title": "Power up your workspace",
+      "more_integrations": "Browse more integrations"
+    },
+    "switch_to_plane_section": {
+      "title": "Discover why teams switch to Trinity Intelligence",
+      "description": "Compare Trinity Intelligence with the tools you use today and see the difference."
+    }
+  }
+}

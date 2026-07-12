@@ -1,0 +1,57 @@
+{
+  "section_id": "objects_of_issue",
+  "section_title": "Objects of the Issue",
+  "regulation_reference": "SEBI ICDR Regulations 2018, Chapter IX, Schedule VI, Part A, Clause 2(1)",
+  "description": "Disclosure of the objects for which the issue is being made, including the amount to be raised and the specific use of proceeds.",
+  "fields": {
+    "fresh_issue_amount": {
+      "label": "Fresh Issue Amount (₹ in Lakhs)",
+      "type": "decimal",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 2(1)(a)",
+      "icdr_text": "The objects of the issue shall state the purpose for which the proceeds are proposed to be used, the order of priority of each purpose, the amount to be raised for each purpose.",
+      "help_text": "Total amount proposed to be raised through the fresh issue in ₹ Lakhs.",
+      "validation_rules": ["must_be_positive", "must_match_sum_of_line_items"]
+    }
+  },
+  "line_item_fields": {
+    "category": {
+      "label": "Use of Proceeds Category",
+      "type": "choice",
+      "choices": ["capex", "working_capital", "general_corporate_purposes", "debt_repayment", "other"],
+      "choice_labels": {
+        "capex": "Capital Expenditure",
+        "working_capital": "Working Capital",
+        "general_corporate_purposes": "General Corporate Purposes",
+        "debt_repayment": "Debt Repayment",
+        "other": "Other"
+      },
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 2(1)(b)",
+      "icdr_text": "The objects of the issue shall contain the following details: (i) capital expenditure for purchase of property, plant and equipment, (ii) working capital requirements, (iii) repayment of borrowings, (iv) general corporate purposes.",
+      "help_text": "Category of use for this portion of the proceeds."
+    },
+    "amount": {
+      "label": "Amount (₹ in Lakhs)",
+      "type": "decimal",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 2(1)(a)",
+      "icdr_text": "The amount to be raised for each purpose shall be specified.",
+      "help_text": "Amount allocated to this specific use of proceeds."
+    },
+    "justification": {
+      "label": "Justification / Rationale",
+      "type": "text",
+      "required": true,
+      "max_length": 2000,
+      "icdr_clause": "Schedule VI, Part A, Clause 2(1)(c)",
+      "icdr_text": "Means of financing such objects, i.e., the proposed deployment of the net proceeds including details regarding utilization of proceeds.",
+      "help_text": "Provide a detailed rationale for this specific use of funds, including how the amount was determined."
+    }
+  },
+  "notes": [
+    "General Corporate Purposes (GCP) should not exceed 25% of the total issue size as per SEBI guidelines.",
+    "Each line item must be independently justified.",
+    "The sum of all line item amounts must equal the fresh issue amount."
+  ]
+}

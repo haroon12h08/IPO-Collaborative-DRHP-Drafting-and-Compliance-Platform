@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	hooksPath = .husky/_
+[remote "upstream"]
+	url = https://github.com/makeplane/plane.git
+	fetch = +refs/heads/preview:refs/remotes/upstream/preview
+[branch "preview"]
+	remote = upstream
+	merge = refs/heads/preview
+	vscode-merge-base = origin/preview
+[remote "origin"]
+	url = https://github.com/haroon12h08/IPO-Collaborative-DRHP-Drafting-and-Compliance-Platform.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

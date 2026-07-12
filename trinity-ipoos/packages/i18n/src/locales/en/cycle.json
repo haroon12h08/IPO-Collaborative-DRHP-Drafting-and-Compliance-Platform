@@ -1,0 +1,41 @@
+{
+  "active_cycle": {
+    "empty_state": {
+      "progress": {
+        "title": "Add Compliance Tasks to the IPO Readiness to view it's progress"
+      },
+      "chart": {
+        "title": "Add Compliance Tasks to the IPO Readiness to view the burndown chart."
+      },
+      "priority_issue": {
+        "title": "Observe high priority Compliance Tasks tackled in the IPO Readiness at a glance."
+      },
+      "assignee": {
+        "title": "Add assignees to Compliance Tasks to see a breakdown of work by assignees."
+      },
+      "label": {
+        "title": "Add labels to Compliance Tasks to see the breakdown of work by labels."
+      }
+    }
+  },
+  "cycle": {
+    "label": "{count, plural, one {IPO Readiness} other {IPO Readiness}}",
+    "no_cycle": "No IPO Readiness"
+  },
+  "active_cycle_analytics": {
+    "empty_state": {
+      "progress": {
+        "title": "Add Compliance Tasks to the IPO Readiness to view it's\n progress"
+      },
+      "priority": {
+        "title": "Observe high priority Compliance Tasks tackled in\n the IPO Readiness at a glance."
+      },
+      "assignee": {
+        "title": "Add assignees to Compliance Tasks to see a\n breakdown of work by assignees."
+      },
+      "label": {
+        "title": "Add labels to Compliance Tasks to see the\n breakdown of work by labels."
+      }
+    }
+  }
+}

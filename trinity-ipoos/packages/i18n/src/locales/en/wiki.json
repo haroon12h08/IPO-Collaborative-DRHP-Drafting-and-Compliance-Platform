@@ -1,0 +1,113 @@
+{
+  "wiki_collections": {
+    "predefined": {
+      "general": "General",
+      "private": "Private",
+      "shared": "Shared",
+      "archived": "Archived"
+    },
+    "fallback_name": "Collection",
+    "form": {
+      "name_required": "Collection title is required",
+      "name_max_length": "Collection name must be less than 255 characters",
+      "name_placeholder_create": "Give a title to the collection",
+      "name_placeholder_edit": "Collection name"
+    },
+    "create_modal": {
+      "title": "Create a collection",
+      "submit": "Create collection"
+    },
+    "edit_modal": {
+      "title": "Edit collection"
+    },
+    "delete_modal": {
+      "title": "Delete collection",
+      "page_count": "This collection has {pageCount} {pageCount, plural, one {Company Record} other {Company Records}}. Choose what happens to them.",
+      "transfer_title": "Transfer Company Records and delete collection",
+      "transfer_description": "Move all Company Records to another collection before deleting. Company Records and their permissions are preserved.",
+      "transfer_warning": "Moved Company Records will inherit the permissions of the selected collection.",
+      "transfer_target_label": "Move Company Records to",
+      "transfer_target_placeholder": "Select a collection",
+      "delete_with_pages_title": "Delete collection with Company Records",
+      "delete_with_pages_description": "Permanently delete the collection and all its Company Records. This action can't be undone.",
+      "submit": "Delete collection"
+    },
+    "header": {
+      "add_page": "Add Company Record"
+    },
+    "menu": {
+      "create_new_page": "Create new Company Record",
+      "add_existing_page": "Add existing Company Record",
+      "edit_collection": "Edit collection",
+      "collection_options": "Collection options"
+    },
+    "add_existing_page_modal": {
+      "search_placeholder": "Search for Company Records",
+      "success_message": "{count} {count, plural, one {Company Record} other {Company Records}} added to collection.",
+      "error_message": "Company Records could not be moved. Please try again.",
+      "no_pages_found": "No Company Records found matching your search",
+      "no_pages_available": "No Company Records available to move",
+      "submit": "Move"
+    },
+    "list": {
+      "invite_only": "Invite only",
+      "remove_error": "Failed to remove Company Record from collection.",
+      "no_matching_pages": "No matching Company Records",
+      "remove_search_criteria": "Remove the search criteria to see all Company Records",
+      "remove_filters": "Remove the filters to see all Company Records",
+      "no_pages_title": "No Company Records yet",
+      "no_pages_description": "This collection doesn't have any Company Records right now.",
+      "untitled": "Untitled",
+      "restricted_access": "Restricted Access",
+      "collapse_page": "Collapse Company Record",
+      "expand_page": "Expand Company Record",
+      "page_actions": "Company Record actions",
+      "page_link_copied": "Company Record link copied to clipboard.",
+      "columns": {
+        "page_name": "Company Record name",
+        "owner": "Owner",
+        "nested_pages": "Nested Company Records",
+        "last_activity": "Last activity",
+        "actions": "Actions"
+      }
+    },
+    "toasts": {
+      "created": "Collection created successfully.",
+      "create_error": "Collection could not be created. Please try again.",
+      "renamed": "Collection renamed successfully.",
+      "rename_error": "Collection could not be updated. Please try again.",
+      "transferred_deleted": "Company Records transferred and collection deleted.",
+      "deleted_with_pages": "Collection and its Company Records deleted.",
+      "delete_error": "Collection could not be deleted. Please try again.",
+      "target_required": "Please select a collection to move Company Records to.",
+      "create_page_error": "Company Record could not be created. Please try again.",
+      "create_page_in_collection_error": "Company Record could not be created or added to the collection. Please try again.",
+      "collection_link_copied": "Collection link copied to clipboard."
+    }
+  },
+  "wiki": {
+    "upgrade_flow": {
+      "title": "Upgrade to unlock Wiki",
+      "description": "Unlock public Company Records, version history, shared Company Records, real-time collaboration, and workspace Company Records for wikis, company-wide docs, and knowledge bases with Trinity Intelligence Pro.",
+      "upgrade_button": {
+        "text": "Upgrade"
+      },
+      "learn_more_button": {
+        "text": "Learn more"
+      },
+      "download_button": {
+        "text": "Download data",
+        "loading": "Downloading"
+      },
+      "tabs": {
+        "nested_pages": "Nested Company Records",
+        "add_embeds": "Add embeds",
+        "publish_pages": "Publish Company Records",
+        "comments": "Comments"
+      }
+    },
+    "nested_pages_download_banner": {
+      "title": "Nested Company Records require a paid plan. Upgrade to unlock."
+    }
+  }
+}

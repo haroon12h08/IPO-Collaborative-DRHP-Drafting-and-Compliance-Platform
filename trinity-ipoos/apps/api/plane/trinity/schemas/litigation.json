@@ -1,0 +1,64 @@
+{
+  "section_id": "litigation",
+  "section_title": "Litigation & Regulatory Actions",
+  "regulation_reference": "SEBI ICDR Regulations 2018, Chapter IX, Schedule VI, Part A, Clause 17",
+  "description": "Disclosure of all pending litigation, regulatory actions, and legal proceedings involving the company, its promoters, directors, and group companies that are material or could affect the company's operations.",
+  "fields": {
+    "case_type": {
+      "label": "Case Type",
+      "type": "choice",
+      "choices": ["criminal", "civil", "regulatory", "tax"],
+      "choice_labels": {
+        "criminal": "Criminal Proceedings",
+        "civil": "Civil Litigation",
+        "regulatory": "Regulatory Actions",
+        "tax": "Tax Proceedings"
+      },
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 17(a)",
+      "icdr_text": "All pending litigations involving the issuer, promoters, directors, and group companies shall be disclosed and categorized.",
+      "help_text": "Select the type of legal proceeding."
+    },
+    "party_involved": {
+      "label": "Party Involved",
+      "type": "string",
+      "required": true,
+      "max_length": 500,
+      "icdr_clause": "Schedule VI, Part A, Clause 17(b)",
+      "icdr_text": "Details of parties involved including whether it is against the company, its promoter, director, or group company.",
+      "help_text": "Name the parties involved (e.g., 'Company vs. XYZ Authority' or 'ABC vs. Promoter')."
+    },
+    "court_or_authority": {
+      "label": "Court / Authority / Forum",
+      "type": "string",
+      "required": true,
+      "max_length": 500,
+      "icdr_clause": "Schedule VI, Part A, Clause 17(c)",
+      "icdr_text": "Name of the court, tribunal, authority, or forum where the proceeding is pending.",
+      "help_text": "Name of the court, tribunal, or regulatory authority."
+    },
+    "status": {
+      "label": "Current Status",
+      "type": "string",
+      "required": true,
+      "max_length": 1000,
+      "icdr_clause": "Schedule VI, Part A, Clause 17(d)",
+      "icdr_text": "Current status of the proceeding and the next date of hearing, if applicable.",
+      "help_text": "Current status of the case (e.g., pending hearing, order reserved, appeal filed)."
+    },
+    "amount_involved": {
+      "label": "Amount Involved (₹ in Lakhs)",
+      "type": "decimal",
+      "required": false,
+      "icdr_clause": "Schedule VI, Part A, Clause 17(e)",
+      "icdr_text": "The amount involved in such proceedings, if quantifiable.",
+      "help_text": "Financial exposure or amount claimed, if quantifiable. Leave blank if not applicable."
+    }
+  },
+  "notes": [
+    "SEBI defines materiality based on the SEBI Board decision on 'Material Litigation Policy' disclosure requirements.",
+    "Criminal proceedings against promoters and directors must be disclosed regardless of materiality.",
+    "Tax proceedings are separately categorized as they represent contingent liabilities.",
+    "Disclose cases filed BY the company as well as AGAINST the company."
+  ]
+}

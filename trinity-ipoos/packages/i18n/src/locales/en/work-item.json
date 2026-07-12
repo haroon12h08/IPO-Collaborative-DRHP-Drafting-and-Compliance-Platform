@@ -1,0 +1,426 @@
+{
+  "issue": {
+    "label": "{count, plural, one {Compliance Task} other {Compliance Tasks}}",
+    "all": "All Compliance Tasks",
+    "edit": "Edit Compliance Task",
+    "title": {
+      "label": "Compliance Task title",
+      "required": "Compliance Task title is required."
+    },
+    "add": {
+      "press_enter": "Press 'Enter' to add another Compliance Task",
+      "label": "Add Compliance Task",
+      "cycle": {
+        "failed": "Compliance Task could not be added to the IPO Readiness. Please try again.",
+        "success": "{count, plural, one {Compliance Task} other {Compliance Tasks}} added to the IPO Readiness successfully.",
+        "loading": "Adding {count, plural, one {Compliance Task} other {Compliance Tasks}} to the IPO Readiness"
+      },
+      "assignee": "Add assignees",
+      "start_date": "Add start date",
+      "due_date": "Add due date",
+      "parent": "Add parent Compliance Task",
+      "sub_issue": "Add sub-Compliance Task",
+      "dependency": "Add dependency",
+      "relation": "Add relation",
+      "link": "Add link",
+      "existing": "Add existing Compliance Task"
+    },
+    "remove": {
+      "label": "Remove Compliance Task",
+      "cycle": {
+        "loading": "Removing Compliance Task from the IPO Readiness",
+        "success": "Compliance Task removed from the IPO Readiness successfully.",
+        "failed": "Compliance Task could not be removed from the IPO Readiness. Please try again."
+      },
+      "module": {
+        "loading": "Removing Compliance Task from the Task",
+        "success": "Compliance Task removed from the Task successfully.",
+        "failed": "Compliance Task could not be removed from the Task. Please try again."
+      },
+      "parent": {
+        "label": "Remove parent Compliance Task"
+      }
+    },
+    "new": "New Compliance Task",
+    "adding": "Adding Compliance Task",
+    "create": {
+      "success": "Compliance Task created successfully"
+    },
+    "priority": {
+      "urgent": "Urgent",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "display": {
+      "properties": {
+        "label": "Display Properties",
+        "id": "ID",
+        "issue_type": "Compliance Task Type",
+        "sub_issue_count": "Sub-Compliance Task count",
+        "attachment_count": "Attachment count",
+        "created_on": "Created on",
+        "sub_issue": "Sub-Compliance Task",
+        "work_item_count": "Compliance Task count"
+      },
+      "extra": {
+        "show_sub_issues": "Show sub-Compliance Tasks",
+        "show_empty_groups": "Show empty groups"
+      }
+    },
+    "layouts": {
+      "ordered_by_label": "This layout is ordered by",
+      "list": "List",
+      "kanban": "Board",
+      "calendar": "Calendar",
+      "spreadsheet": "Table",
+      "gantt": "Timeline",
+      "title": {
+        "list": "List Layout",
+        "kanban": "Board Layout",
+        "calendar": "Calendar Layout",
+        "spreadsheet": "Table Layout",
+        "gantt": "Timeline Layout"
+      }
+    },
+    "states": {
+      "active": "Active",
+      "backlog": "Backlog"
+    },
+    "comments": {
+      "placeholder": "Add comment",
+      "switch": {
+        "private": "Switch to private comment",
+        "public": "Switch to public comment"
+      },
+      "create": {
+        "success": "Comment created successfully",
+        "error": "Comment creation failed. Please try again later."
+      },
+      "update": {
+        "success": "Comment updated successfully",
+        "error": "Comment update failed. Please try again later."
+      },
+      "remove": {
+        "success": "Comment removed successfully",
+        "error": "Comment remove failed. Please try again later."
+      },
+      "upload": {
+        "error": "Asset upload failed. Please try again later."
+      },
+      "copy_link": {
+        "success": "Comment link copied to clipboard",
+        "error": "Error copying comment link. Please try again later."
+      },
+      "replies": {
+        "create": {
+          "submit_button": "Add reply",
+          "placeholder": "Add reply"
+        },
+        "toast": {
+          "fetch": {
+            "error": {
+              "message": "Failed to fetch replies"
+            }
+          },
+          "create": {
+            "success": {
+              "message": "Reply created successfully"
+            },
+            "error": {
+              "message": "Failed to create reply"
+            }
+          },
+          "update": {
+            "success": {
+              "message": "Reply updated successfully"
+            },
+            "error": {
+              "message": "Failed to update reply"
+            }
+          },
+          "delete": {
+            "success": {
+              "message": "Reply deleted successfully"
+            },
+            "error": {
+              "message": "Failed to delete reply"
+            }
+          }
+        }
+      }
+    },
+    "empty_state": {
+      "issue_detail": {
+        "title": "Compliance Task does not exist",
+        "description": "The Compliance Task you are looking for does not exist, has been archived, or has been deleted.",
+        "primary_button": {
+          "text": "View other Compliance Tasks"
+        }
+      }
+    },
+    "sibling": {
+      "label": "Sibling Compliance Tasks"
+    },
+    "archive": {
+      "description": "Only IPO Ready or canceled Compliance Tasks can be archived",
+      "label": "Archive Compliance Task",
+      "confirm_message": "Are you sure you want to archive the Compliance Task? All your archived Compliance Tasks can be restored later.",
+      "success": {
+        "label": "Archive success",
+        "message": "Your archives can be found in IPO Workspace archives."
+      },
+      "failed": {
+        "message": "Compliance Task could not be archived. Please try again."
+      }
+    },
+    "restore": {
+      "success": {
+        "title": "Restore success",
+        "message": "Compliance Tasks item can be found in IPO Workspace Compliance Tasks."
+      },
+      "failed": {
+        "message": "Compliance Task could not be restored. Please try again."
+      }
+    },
+    "relation": {
+      "relates_to": "Relates to",
+      "duplicate": "Duplicate of",
+      "blocked_by": "Blocked by",
+      "blocking": "Blocking",
+      "start_before": "Starts Before",
+      "start_after": "Starts After",
+      "finish_before": "Finishes Before",
+      "finish_after": "Finishes After",
+      "implements": "Implements",
+      "implemented_by": "Implemented By"
+    },
+    "copy_link": "Copy Compliance Task link",
+    "delete": {
+      "label": "Delete Compliance Task",
+      "error": "Error deleting Compliance Task"
+    },
+    "subscription": {
+      "actions": {
+        "subscribed": "Compliance Task subscribed successfully",
+        "unsubscribed": "Compliance Task unsubscribed successfully"
+      }
+    },
+    "select": {
+      "error": "Please select at least one Compliance Task",
+      "empty": "No Compliance Tasks selected",
+      "add_selected": "Add selected Compliance Tasks",
+      "select_all": "Select all",
+      "deselect_all": "Deselect all"
+    },
+    "open_in_full_screen": "Open Compliance Task in full screen",
+    "duplicate": {
+      "modal": {
+        "title": "Make a copy to another IPO Workspace",
+        "description1": "This creates a copy of the Compliance Task.",
+        "description2": "All property data will be removed while duplicating.",
+        "placeholder": "Select a IPO Workspace"
+      }
+    },
+    "toast": {
+      "duplicate": {
+        "success": {
+          "message": "Compliance Task duplicated successfully"
+        },
+        "error": {
+          "message": "Failed to duplicate Compliance Task"
+        }
+      }
+    },
+    "pages": {
+      "link_pages": "Link Company Records",
+      "show_wiki_pages": "Show Wiki Company Records",
+      "link_pages_to": "Link Company Records to",
+      "linked_pages": "Linked Company Records",
+      "no_description": "This is an empty Company Record. Why don't you write something inside and see it show up here like this placeholder",
+      "toasts": {
+        "link": {
+          "success": {
+            "title": "Company Records updated",
+            "message": "Company Records updated successfully"
+          },
+          "error": {
+            "title": "Company Records update failed",
+            "message": "Company Records update failed"
+          }
+        },
+        "remove": {
+          "success": {
+            "title": "Company Record removed",
+            "message": "Company Record removed successfully"
+          },
+          "error": {
+            "title": "Company Record removal failed",
+            "message": "Company Record removal failed"
+          }
+        }
+      }
+    },
+    "vote": {
+      "click_to_upvote": "Click to upvote",
+      "click_to_downvote": "Click to downvote",
+      "click_to_view_upvotes": "Click to view upvotes",
+      "click_to_view_downvotes": "Click to view downvotes"
+    }
+  },
+  "sub_work_item": {
+    "update": {
+      "success": "Sub-Compliance Task updated successfully",
+      "error": "Error updating sub-Compliance Task"
+    },
+    "remove": {
+      "success": "Sub-Compliance Task removed successfully",
+      "error": "Error removing sub-Compliance Task"
+    },
+    "empty_state": {
+      "sub_list_filters": {
+        "title": "You don't have sub-Compliance Tasks that match the filters you've applied.",
+        "description": "To see all sub-Compliance Tasks, clear all applied filters.",
+        "action": "Clear filters"
+      },
+      "list_filters": {
+        "title": "You don't have Compliance Tasks that match the filters you've applied.",
+        "description": "To see all Compliance Tasks, clear all applied filters.",
+        "action": "Clear filters"
+      }
+    }
+  },
+  "issue_relation": {
+    "empty_state": {
+      "search": {
+        "title": "No matching Compliance Tasks found"
+      },
+      "no_issues": {
+        "title": "No Compliance Tasks found"
+      }
+    }
+  },
+  "issue_comment": {
+    "empty_state": {
+      "general": {
+        "title": "No comments yet",
+        "description": "Comments can be used as a discussion and follow-up space for the Compliance Tasks"
+      }
+    }
+  },
+  "bulk_operations": {
+    "error_details": {
+      "invalid_archive_state_group": {
+        "title": "Unable to archive Compliance Tasks",
+        "message": "Only Compliance Tasks belonging to IPO Ready or Canceled state groups can be archived."
+      },
+      "invalid_issue_start_date": {
+        "title": "Unable to update Compliance Tasks",
+        "message": "Start date selected succeeds the due date for some Compliance Tasks. Ensure start date to be before the due date."
+      },
+      "invalid_issue_target_date": {
+        "title": "Unable to update Compliance Tasks",
+        "message": "Due date selected precedes the start date for some Compliance Tasks. Ensure due date to be after the start date."
+      },
+      "invalid_state_transition": {
+        "title": "Unable to update Compliance Tasks",
+        "message": "State change is not allowed for some Compliance Tasks. Ensure the state change is allowed."
+      }
+    }
+  },
+  "recurring_work_items": {
+    "settings": {
+      "heading": "Recurring Compliance Tasks",
+      "description": "Set your repeatable work once, and we’ll take care of the repeats. You’ll see everything right here when it’s time.",
+      "new_recurring_work_item": "New recurring Compliance Task",
+      "update_recurring_work_item": "Update recurring Compliance Task",
+      "form": {
+        "interval": {
+          "title": "Schedule",
+          "start_date": {
+            "validation": {
+              "required": "Start date is required"
+            }
+          },
+          "interval_type": {
+            "validation": {
+              "required": "Interval type is required"
+            }
+          }
+        },
+        "button": {
+          "create": "Create recurring Compliance Task",
+          "update": "Update recurring Compliance Task"
+        }
+      },
+      "create_button": {
+        "label": "Create recurring Compliance Task",
+        "no_permission": "Contact your IPO Workspace admin to create recurring Compliance Tasks"
+      }
+    },
+    "empty_state": {
+      "upgrade": {
+        "title": "Compliance Tasks, on autopilot",
+        "description": "Set it once. We’ll bring it back when it’s due. Upgrade to Business to make recurring work feel effortless."
+      },
+      "no_templates": {
+        "button": "Create your first recurring Compliance Task"
+      }
+    },
+    "toasts": {
+      "create": {
+        "success": {
+          "title": "Recurring Compliance Task created",
+          "message": "{name}, the recurring Compliance Task, is now available for your workspace."
+        },
+        "error": {
+          "title": "We couldn't create that recurring Compliance Task this time.",
+          "message": "Try saving your details again or copy them over to a new recurring Compliance Task, preferably in another tab."
+        }
+      },
+      "update": {
+        "success": {
+          "title": "Recurring Compliance Task changed",
+          "message": "{name}, the recurring Compliance Task, was changed."
+        },
+        "error": {
+          "title": "We couldn't save changes to this recurring Compliance Task.",
+          "message": "Try saving your details again or come back to this recurring Compliance Task later. If there's trouble still, reach out to us."
+        }
+      },
+      "delete": {
+        "success": {
+          "title": "Recurring Compliance Task deleted",
+          "message": "{name}, the recurring Compliance Task, has now been deleted from your workspace."
+        },
+        "error": {
+          "title": "We couldn't delete that recurring Compliance Task this.",
+          "message": "Try deleting it again or come back to it later. If you can't delete it then, reach out to us."
+        }
+      }
+    },
+    "delete_confirmation": {
+      "title": "Delete recurring Compliance Task",
+      "description": {
+        "prefix": "Are you sure you want to delete recurring Compliance Task-",
+        "suffix": "? All of the data related to the recurring Compliance Task will be permanently removed. This action cannot be undone."
+      }
+    }
+  },
+  "epic": {
+    "new": "New Epic",
+    "label": "{count, plural, one {Epic} other {Epics}}",
+    "adding": "Adding epic",
+    "create": {
+      "success": "Epic created successfully"
+    },
+    "add": {
+      "label": "Add Epic",
+      "press_enter": "Press 'Enter' to add another epic"
+    },
+    "title": {
+      "label": "Epic Title",
+      "required": "Epic title is required."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "section_id": "financial_summary",
+  "section_title": "Financial Summary (Last 3 Financial Years)",
+  "regulation_reference": "SEBI ICDR Regulations 2018, Chapter IX, Schedule VI, Part A, Clause 10",
+  "description": "Basic financial figures for the last 3 financial years, entered once and referenced by other sections for cross-checks. These figures must be consistent with the audited financial statements included in the DRHP.",
+  "fields": {
+    "financial_year": {
+      "label": "Financial Year",
+      "type": "string",
+      "required": true,
+      "max_length": 9,
+      "icdr_clause": "Schedule VI, Part A, Clause 10(a)",
+      "icdr_text": "Financial statements for the last three completed financial years.",
+      "help_text": "Financial year in format 'YYYY-YYYY' (e.g., 2023-2024)."
+    },
+    "revenue": {
+      "label": "Revenue from Operations (₹ in Lakhs)",
+      "type": "decimal",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 10(b)",
+      "icdr_text": "Statement of Revenue from Operations as per the audited financial statements.",
+      "help_text": "Total revenue from operations as per the audited Profit & Loss statement."
+    },
+    "ebitda": {
+      "label": "EBITDA (₹ in Lakhs)",
+      "type": "decimal",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 10(c)",
+      "icdr_text": "Operating profit before interest, depreciation, and tax.",
+      "help_text": "Earnings Before Interest, Taxes, Depreciation, and Amortization."
+    },
+    "pat": {
+      "label": "Profit After Tax (₹ in Lakhs)",
+      "type": "decimal",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 10(d)",
+      "icdr_text": "Net profit after tax as per the audited financial statements.",
+      "help_text": "Net profit after tax as per the audited P&L statement."
+    },
+    "net_worth": {
+      "label": "Net Worth (₹ in Lakhs)",
+      "type": "decimal",
+      "required": true,
+      "icdr_clause": "Schedule VI, Part A, Clause 10(e), read with Regulation 229(2)(b)",
+      "icdr_text": "Net worth of the issuer as per the latest audited financial statements. For SME IPO, net worth shall be at least ₹1 crore as per the latest audited financial statements.",
+      "help_text": "Net worth as per the Balance Sheet (Share Capital + Reserves - Miscellaneous Expenditure)."
+    }
+  },
+  "notes": [
+    "SME eligibility: Net worth must be positive and at least ₹1 crore (Regulation 229(2)(b)).",
+    "Track record: The issuer must have operating profit (EBITDA) from operations for at least 2 out of the 3 preceding financial years (Regulation 229(2)(d)).",
+    "All figures must match the restated audited financial statements.",
+    "These figures are used as cross-reference points by other sections (e.g., RPT materiality thresholds are computed against revenue/net worth)."
+  ]
+}
